@@ -1,0 +1,20 @@
+{
+  "name": "skribbl_solver_ai_server",
+  "version": "1.0.0",
+  "main": "popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^0.3.28",
+    "@langchain/core": "^0.3.37",
+    "@langchain/google-genai": "^0.1.8",
+    "express": "^4.21.2",
+    "langchain": "^0.3.15"
+  }
+}
